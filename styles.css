@@ -1,7 +1,42 @@
 body{
     background-color: beige;
-    justify-content:center;
+    color: rgb(15, 39, 102);;
+    justify-items:center;
 }
-container{
-    
+.container{
+    display: grid;
+    gap:20px;
+    background-color: rgb(115, 161, 201);
+    justify-items: center;
+    width:400px;
+    border:3px solid rgb(1, 29, 107);
+    border-radius:10px;
+}
+.mailpassword{
+    display:grid;
+    gap:10px;
+}
+.checkboxcontainer{
+    display:grid;
+    gap:2px;
+    grid-auto-flow:column;
+    align-items: center;
+}
+.checkboxcontainer span{
+   margin-left:40px;
+}
+span{
+    color: rgb(65, 106, 221);
+}
+a{
+    text-decoration: none;
+}
+input{
+    border-radius: 10px rgb(4, 10, 26);
+    height: 30px;
+    padding-left: 10px;
+}
+button{
+    border-radius: 10px rgb(4, 10, 26);
+    height: 30px;
 }
